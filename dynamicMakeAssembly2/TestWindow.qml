@@ -75,6 +75,6 @@ ApplicationWindow {
     function destroyedWindow(identity) {
 
         // console.log("TestWindow.qml >>destroyedWindow " + String("identity(%1) === __identity(%2)").arg(identity).arg(__identity))
-        tryDestroyedThis(__identity)
+        tryDestroyedThis(identity)
     }
 }

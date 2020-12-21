@@ -169,7 +169,7 @@ Rectangle {
     */
     function __destroyedTestWindow(windowId) {
 
-        // console.log(String("function __destroyedTestWindow(%1)").arg(windowId))
+        console.log(String("function __destroyedTestWindow(%1)").arg(windowId))
 
         if(__findTestWindowObject(windowId) !== null) {
 
